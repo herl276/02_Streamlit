@@ -9,7 +9,7 @@ Dashboard interaktif untuk menganalisis pengaruh cuaca dan musim terhadap penyew
 """)
 
 # Load dataset
-df = pd.read_csv("day.csv")
+df = pd.read_csv("dashboard/day.csv")
 
 # Sidebar Filter
 st.sidebar.header("Filter Data")
